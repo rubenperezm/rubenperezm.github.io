@@ -63,6 +63,8 @@ const ExperienceCard = (props) => {
           <br />
           <span style={{ fontWeight: "500" }}>{props.duration}</span>
         </Card.Text>
+      </Card.Body>
+      <Card.Footer className={styles.footer}>
         {props.liveUrl ? (
           <Button
             className={styles.button}
@@ -107,7 +109,7 @@ const ExperienceCard = (props) => {
             </Modal>
           </React.Fragment>
         ) : null}
-      </Card.Body>
+      </Card.Footer>
     </Card>
   );
 };

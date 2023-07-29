@@ -6,6 +6,10 @@
   margin: 0.5em;
 }
 
+.footer {
+  background-color: inherit;
+}
+
 .button {
   margin: 0.25em;
 }
