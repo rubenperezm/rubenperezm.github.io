@@ -1,0 +1,36 @@
+[
+  {
+    "title": "Research Author",
+    "organization": "University of Cádiz",
+    "liveUrl": "https://scholar.google.es/citations?user=9qcesMUAAAAJ",
+    "duration": "From 2023",
+    "description": [
+      "Published research articles in collaboration with the Software Process Improvement & Formal Methods research group (SPI&FM, TIC-195)."
+    ],
+    "logo": "UCA"
+  },
+  {
+    "title": "Full Stack Developer",
+    "organization": "University of Cádiz",
+    "liveUrl": "https://www.uca.es/?lang=en",
+    "duration": "October 2021 - July 2023",
+    "description": [
+      "Contributed in two different open source projects (ChatbotSQL and ROBDA), funded in the call of Teaching Innovation of the University of Cádiz.",
+      "Received the Departmental Collaboration Scholarship from the Spanish Ministry of Education in the call of 2022/23"
+    ],
+    "logo": "UCA"
+  },
+  {
+    "title": "BSc Computer Engineering Student",
+    "organization": "University of Cádiz",
+    "liveUrl": "https://www.uca.es/?lang=en",
+    "duration": "September 2019 - July 2023",
+    "description": [
+      "CGPA: 8.83/10 (Spanish Grading System)",
+      "Took the Computational Theory and AI path.",
+      "I was a Student Assistant in the Computer Science Department (2021-2023)",
+      "Led a group of incoming students in the Welcome Days (2021)"
+    ],
+    "logo": "ESI"
+  }
+]

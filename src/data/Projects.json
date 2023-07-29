@@ -1,0 +1,22 @@
+[
+  {
+    "title": "ChatbotSQL",
+    "content": "Online platform to learn SQL with an integrated chatbot (IBM Watson Assistant)",
+    "gitHubUrl": "https://github.com/rubenperezm/ChatbotSQL",
+    "liveUrl": null,
+    "techStack": ["PHP", "NodeJS", "MySQL"]
+  },
+  {
+    "title": "ROBDA",
+    "content": "Quiz web app to learn theorical concepts of databases",
+    "gitHubUrl": "https://github.com/rubenperezm/roBDa",
+    "liveUrl": null,
+    "techStack": ["React", "NextJS", "Python", "Django", "MySQL"]
+  },
+  {
+    "title": "Sudoku Solver",
+    "content": "MATLAB GUI for solving sudokus using voice and video input",
+    "gitHubUrl": "https://github.com/rubenperezm/Sudoku",
+    "techStack": ["Matlab"]
+  }
+]

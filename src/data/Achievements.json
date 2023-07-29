@@ -1,0 +1,36 @@
+[
+  {
+    "title": "First Place in the IX edition of the Multisite Regional AdaByron 2023",
+    "organization": "Complutense University of Madrid (UCM)",
+    "description": "Won the first prize in a national competitive programming contest with two classmates. The contest was organized by the Complutense University of Madrid (UCM) and allowed us to take part in the final round in Madrid.",
+    "url": "https://www.uca.es/noticia/estudiantes-de-la-esi-ganan-la-fase-regional-multisede-del-concurso-de-programacion-adabyron/"
+  },
+  {
+    "title": "Certified Developer Associate (Python)",
+    "organization": "MongoDB",
+    "description": "This professional certification validates a developer's proficiency in using MongoDB with the Python programming language. It demonstrates the individual's knowledge and skills in designing and implementing applications that leverage MongoDB's features and functionalities effectively. Date of issue: 2023",
+    "url": "https://learn.mongodb.com/c/gWokGr4BS3asn_7Y0unoJQ"
+  },
+  {
+    "title": "Machine Learning with Python",
+    "organization": "freeCodeCamp",
+    "description": "This certification is awarded to all those who have successfully completed the freeCodeCamp course on Machine Learning with Python. Date of issue: 2022",
+    "url": "https://www.freecodecamp.org/certification/rubenperez/machine-learning-with-python-v7"
+  },
+  {
+    "title": "CCNA: Introduction to Networks",
+    "organization": "Cisco",
+    "description": "successfully completed the Introduction to Networks course and achieved this student level credential. Earner has knowledge of networking including IP addressing, how physical, data link protocols support Ethernet, can configure connectivity between switches, routers and end devices to provide access to local and remote resources. Date of issue: 2021",
+    "url": "https://www.credly.com/badges/0ee6aee4-0f99-43d9-aa73-071cc279d569/linked_in_profile"
+  },
+  {
+    "title": "Honorific Mentions (BSc)",
+    "organization": "University of Cádiz",
+    "description": "Awarded with seven Honorific Mentions in subjects throughout my academic journey, including one in my Bachelor's Thesis. Each mention is limited to the top 5% of students with outstanding performance."
+  },
+  {
+    "title": "Cambridge English: First (FCE)",
+    "organization": "Cambridge Assessment English",
+    "description": "English language examination at an upper-intermediate level (B2) of the Common European Framework of Reference (CEFR). Date of issue: 2017."
+  }
+]
