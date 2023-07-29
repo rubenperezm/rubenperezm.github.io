@@ -33,13 +33,13 @@ const assets = {
 };
 
 const icons = {
-  React: <Icon icon="devicon:react" className={styles.icon} />,
-  NextJS: <Icon icon="devicon:nextjs" className={styles.icon} />,
-  NodeJS: <Icon icon="devicon:nodejs" className={styles.icon} />,
-  Matlab: <Icon icon="devicon:matlab" className={styles.icon} />,
-  MySQL: <Icon icon="devicon:mysql" className={styles.icon} />,
-  PHP: <Icon icon="devicon:php" className={styles.icon} />,
-  Python: <Icon icon="devicon:python" className={styles.icon} />,
+  React: <Icon icon="devicon:react" key={1} className={styles.icon} />,
+  NextJS: <Icon icon="devicon:nextjs" key={2} className={styles.icon} />,
+  NodeJS: <Icon icon="devicon:nodejs" key={3} className={styles.icon} />,
+  Matlab: <Icon icon="devicon:matlab" key={4} className={styles.icon} />,
+  MySQL: <Icon icon="devicon:mysql" key={5} className={styles.icon} />,
+  PHP: <Icon icon="devicon:php" key={6} className={styles.icon} />,
+  Python: <Icon icon="devicon:python" key={7} className={styles.icon} />,
 };
 
 const ProjectCard = (props) => {

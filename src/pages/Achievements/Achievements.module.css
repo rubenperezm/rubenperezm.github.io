@@ -1,9 +1,6 @@
 .container {
   display: flex;
   flex-direction: column;
-  background-color: #efefef;
-  min-height: calc(100vh - 10em);
-  justify-content: center;
   align-items: center;
   text-align: center;
   background-position: center !important;

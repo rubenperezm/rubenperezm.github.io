@@ -99,8 +99,8 @@ const ExperienceCard = (props) => {
                   <h5>{props.duration}</h5>
                 </div>
                 <ul>
-                  {props.description.map((elem) => (
-                    <li>{elem}</li>
+                  {props.description.map((elem, idx) => (
+                    <li key={idx}>{elem}</li>
                   ))}
                 </ul>
               </Modal.Body>

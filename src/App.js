@@ -30,7 +30,7 @@ const App = () => {
   };
 
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: "#efefef", minHeight: "100vh"}}>
       <NavigationBar currentTab={currentTab} setCurrentTab={setCurrentTab} />
       <Suspense fallback={Loader()}>{renderSwitch(currentTab)}</Suspense>
     </div>

@@ -16,6 +16,17 @@ const Projects = () => {
             alignItems: "center",
           }}
         >
+          <Button className={styles.button} variant="primary" href="https://github.com/rubenperezm?tab=repositories" target="_blank">
+            View all projects on GitHub
+          </Button>
+        </Row>
+        <Row
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
           {projectsData.map((obj, index) => (
             <ProjectCard
               key={index}
@@ -27,9 +38,6 @@ const Projects = () => {
             />
           ))}
         </Row>
-        <Button className={styles.button} variant="primary" href="https://github.com/rubenperezm?tab=repositories" target="_blank">
-          View all projects on GitHub
-        </Button>
       </Container>
     </React.Fragment>
   );
