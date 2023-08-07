@@ -1,7 +1,6 @@
 .container {
   display: flex;
   width: 28em;
-  height: 16em;
   max-width: 90vw;
   padding: 2em;
   margin: 0.5em;
