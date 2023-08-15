@@ -55,7 +55,7 @@ const Home = () => {
           </a>
         </Col>
         <Col>
-          <a href="mailto:rubenperezmerc@gmail.com" target="_blank_">
+          <a href="mailto:rubenpermerc@gmail.com" target="_blank_">
             <FaEnvelope className={styles.icon} />
           </a>
         </Col>
