@@ -21,6 +21,7 @@
 
 .image {
   max-width: 100%;
-  max-height: 12em;
+  max-height: 10em;
+  min-height: 10em;
   width: auto;
 }

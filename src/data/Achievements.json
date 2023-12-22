@@ -1,5 +1,28 @@
 [
   {
+    "title": "Athenaeum-UCA Chair Award in Engineering and Architecture",
+    "organization": "Athenaeum of Cádiz",
+    "description": "Academic excellence award in the field of Engineering and Architecture. Date of issue: 2024",
+    "url": "https://catedra-ateneo.uca.es/premios-catedra-ateneo-uca/resoluciones/"
+  },
+  {
+    "title": "Outstanding Student Award (BSc) in Computer Science",
+    "organization": "University of Cádiz",
+    "description": "This award is given to the graduate with the highest academic record in the degree. Date of issue: 2024"
+  },
+  {
+    "title": "Google Cloud Data Analyst Learning Path",
+    "organization": "Google Cloud",
+    "description": "In the Data Analyst learning path you will derive insights through data analysis and visualization using the Google Cloud and explore, mine, load, visualize, and extract insights from diverse Google BigQuery datasets. The courses also cover data loading, querying, schema modeling, optimizing performance, query pricing, and data visualization.",
+    "url": "https://www.cloudskillsboost.google/public_profiles/e7eb279b-aeea-4017-9424-036d3054ecd1"
+  },
+  {
+    "title": "Google Cloud Associate Cloud Engineer Learning Path",
+    "organization": "Google Cloud",
+    "description": "This learning path is designed to help you and your team prepare for the Google Associate Cloud Engineer exam. Even if you aren't planning to take the exam, the courses in this learning path will provide you with a solid understanding of how to set up a cloud solution environment, how to plan, configure, and deploy a cloud solution, and how to ensure successful operation of a cloud solution built with GCP resources and services.",
+    "url": "https://www.cloudskillsboost.google/public_profiles/e7eb279b-aeea-4017-9424-036d3054ecd1"
+  },
+  {
     "title": "First Place in the IX edition of the Multisite Regional AdaByron 2023",
     "organization": "Complutense University of Madrid (UCM)",
     "description": "Won the first prize in a national competitive programming contest with two classmates. The contest was organized by the Complutense University of Madrid (UCM) and allowed us to take part in the final round in Madrid.",

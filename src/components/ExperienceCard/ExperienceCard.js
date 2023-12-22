@@ -5,6 +5,14 @@ import * as Asset from "../../assets";
 import styles from "./ExperienceCard.module.css";
 
 const assets = {
+  UGR: (
+    <ImageHolder
+      primarySource={Asset.UGRLogo}
+      secondarySource={Asset.FallbackUGRLogo}
+      alt="University of Granada"
+      className={`card-img ${styles.image}`}
+    />
+  ),
   UCA: (
     <ImageHolder
       primarySource={Asset.UCALogo}
@@ -82,7 +90,7 @@ const ExperienceCard = (props) => {
               variant="secondary"
               onClick={handleModalOpen}
             >
-              View Description
+              View More
             </Button>
             <Modal
               centered

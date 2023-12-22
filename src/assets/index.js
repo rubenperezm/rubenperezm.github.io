@@ -1,6 +1,8 @@
 // Organization Assets
 export { default as UCALogo } from "./organizations/webp/uca-logo.webp";
 export { default as FallbackUCALogo } from "./organizations/jpg/uca-logo.jpg";
+export { default as UGRLogo } from "./organizations/webp/ugr-logo.webp";
+export { default as FallbackUGRLogo } from "./organizations/jpg/ugr-logo.jpg";
 export { default as ESILogo } from "./organizations/webp/esi-logo.webp";
 export { default as FallbackESILogo } from "./organizations/jpg/esi-logo.jpg";
 export { default as CadizLogo } from "./organizations/webp/cadizcf.webp";

@@ -1,9 +1,20 @@
 [
   {
+    "title": "MSc Data Science Student",
+    "organization": "University of Granada",
+    "liveUrl": "https://www.ugr.es/en",
+    "duration": "September 2023 - Present",
+    "description": [
+      "Data Science and Computer Engineering Student.",
+      "Specialized in Data Science and Artificial Intelligence"
+    ],
+    "logo": "UGR"
+  },
+  {
     "title": "Research Author",
     "organization": "University of Cádiz",
     "liveUrl": "https://scholar.google.es/citations?user=9qcesMUAAAAJ",
-    "duration": "From 2023",
+    "duration": "2023 - Present",
     "description": [
       "Published research articles in collaboration with the Software Process Improvement & Formal Methods research group (SPI&FM, TIC-195)."
     ],
