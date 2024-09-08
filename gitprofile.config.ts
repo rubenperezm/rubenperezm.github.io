@@ -94,7 +94,6 @@ const CONFIG = {
     'JavaScript',
     'React.js',
     'MySQL',
-    'PostgreSQL',
     'MongoDB',
     'Git',
     'Docker',
@@ -164,20 +163,20 @@ const CONFIG = {
   ],
   awards: [
     {
-      title: 'Departmental Collaboration Scholarship from the Spanish Ministry of Education',
-      year: '2022/23',
-    },
-    {
-      title: 'First Place in the IX edition of the Regional Multisite AdaByron Competitive Programming Contest',
-      year: '2023',
+      title: 'Athenaeum-UCA Chair Award in Engineering and Architecture',
+      year: '2024',
     },
     {
       title: 'Outstanding Student Award in Computer Science',
       year: '2024',
     },
     {
-      title: 'Athenaeum-UCA Chair Award in Engineering and Architecture',
-      year: '2024',
+      title: 'First Place in the IX edition of the Regional Multisite AdaByron Competitive Programming Contest',
+      year: '2023',
+    },
+    {
+      title: 'Departmental Collaboration Scholarship from the Spanish Ministry of Education',
+      year: '2022/23',
     },
   ],
   educations: [
