@@ -27,9 +27,10 @@ export default defineConfig({
             },
             includeAssets: ['logo.png'],
             manifest: {
-              name: 'Portfolio',
-              short_name: 'Portfolio',
-              description: 'Personal Portfolio',
+              name: 'Rubén Pérez\'s Portfolio',
+              short_name: 'Rubén Pérez',
+              description: 'Rubén Pérez\'s Portfolio',
+              theme_color: '#1f242e',
               icons: [
                 {
                   src: 'logo.png',
