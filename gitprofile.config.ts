@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['vre-hub/reana-jupyterlab-extension', 'rubenperezm/ChatbotSQL', 'rubenperezm/roBDa', 'rubenperezm/Sudoku', 'rubenperezm/ListadosPalabrasRAE', 'rubenperezm/C-Compiler'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['vre-hub/reana-jupyterlab-extension', 'rubenperezm/ChatbotSQL', 'rubenperezm/roBDa', 'rubenperezm/Sudoku', 'rubenperezm/pystrukts', 'rubenperezm/C-Compiler'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
