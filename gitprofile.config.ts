@@ -86,7 +86,7 @@ const CONFIG = {
   },
   resume: {
     fileUrl:
-      'https://drive.google.com/file/d/1T-tEJGcH2DEtyYjtvBCOlRzK7h_u8-uC/view?usp=drive_link', // Empty fileUrl will hide the `Download Resume` button.
+      'https://drive.google.com/file/d/1pZ8wyH2IUm584NnEYIa0Bs7cfxpTQoBE/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
     'Java',
@@ -106,8 +106,8 @@ const CONFIG = {
       to: 'August 2024',
       companyLink: 'https://openlab.cern/news/02-jul-2024/2024-cern-openlab-summer-student-programme-has-started-dont-miss-our-lectures',
       description: [
-        'Selected out from over 6660 applicants.',
-        'Created Reana JupyterLab, an open-source JupyterLab extension in React and Python to interact with REANA, a reproducible research data analysis platform.',
+        'Selected out of over 6660 applicants.',
+        'Created Reana JupyterLab, an open-source JupyterLab extension in React and Python to interact with REANA, a reproducible research data analysis platform. It is currently being used by CERN’s Virtual Research Environment.',
         'Automated the project’s publishing process to PyPI, the building of Docker images, and the integration of testing using GitHub Actions to streamline CI/CD pipelines.'
       ],
     },
@@ -152,13 +152,13 @@ const CONFIG = {
       name: 'MongoDB Associate Developer',
       body: '',
       year: 'February 2023',
-      link: 'https://www.credly.com/earner/earned/badge/2428c15b-8dc9-4501-ae71-6e40ea217559',
+      link: 'https://www.credly.com/badges/2428c15b-8dc9-4501-ae71-6e40ea217559/public_url',
     },
     {
       name: 'Cisco CCNA: Introduction to Networks',
       body: '',
       year: 'July 2021',
-      link: 'https://www.credly.com/earner/earned/badge/0ee6aee4-0f99-43d9-aa73-071cc279d569'
+      link: 'https://www.credly.com/badges/0ee6aee4-0f99-43d9-aa73-071cc279d569/public_url'
     },
   ],
   awards: [
