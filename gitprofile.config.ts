@@ -149,6 +149,12 @@ const CONFIG = {
   ],
   certifications: [
     {
+      name: 'GitHub Foundations',
+      body: '',
+      year: 'Feb 2025',
+      link: 'https://www.credly.com/badges/95860384-9acf-4c57-8dee-4221c2874dcd'
+    },
+    {
       name: 'Google Cloud Data Analyst Path',
       body: '',
       year: 'January 2024',
@@ -207,18 +213,34 @@ const CONFIG = {
   ],
   publications: [
     {
-      title: 'ChatbotSQL: Agente Conversacional y Plataforma Web para el Aprendizaje de SQL',
-      conferenceName: 'XXVII JISBD (2023)',
+      title: 'Data discovery, analysis and reproducibility in Virtual Research Environments',
+      conferenceName: '',
+      journalName: 'arXiv preprint (2025)',
+      authors: 'E. García-García, G. Guerrieri, R. Pérez-Mercado, M.R. Zengel, G. Skorobogatov, H. González-Labrador, X. Espinal-Curull',
+      link: 'https://doi.org/10.48550/arXiv.2503.02483',
+      description: 'During the ESCAPE project, a pilot analysis facility was developed with a bottom-up approach, in collaboration with all the project partners. As a result, the CERN Virtual Research Environment (VRE) initiative proposes a workspace that facilitates data access from the ESCAPE Data Lake, managed by Rucio, a data management framework, and supports interactive analysis via Jupyter notebooks. The facility offers custom software stacks and access to CVMFS, and connects to local data processing resources through REANA, an open-source framework developed by CERN IT for reanalysis and reproducibility. The CERN VRE deploys an instance of REANA, allowing users to utilise its features together with the analysis facility\'s services. Integrating heterogeneous services with a unified interface significantly eases the user experience. Furthermore, in line with the ESCAPE Open Collaboration, the development of open source tools that can be leveraged by different physics communities with similar analysis strategies, laying the foundation of common lifecycle analysis practices. Therefore, in order to foster accessibility, as well as interactivity, reproducibility and data preservation to more complex infrastructure services, the development of user-friendly middleware should be prioritized. This contribution focuses on the connection of REANA and Zenodo to the CERN Virtual Research Environment\'s interface through Jupyter extensions. The development of these extensions makes it possible to use the Virtual Research Environment as a single workspace to enhance the lifecycle of research analysis: from data discovery and data access, through interactive analysis and offload to computing resources, to reproducibility and preservation of results.'
+},
+    {
+      title: 'Pytopicgram: A library for data extraction and topic modeling from Telegram channels',
+      conferenceName: '',
+      journalName: 'SoftwareX (2025)',
+      authors: 'J. Gómez-Romero, J. Cantón Correa, R. Pérez Mercado, F. Prados Abad, M. Molina-Solana, W. Fajardo',
+      link: 'https://doi.org/10.48550/arXiv.2502.04882',
+      description: 'Telegram is a popular platform for public communication, generating large amounts of messages through its channels. pytopicgram is a Python library that helps researchers collect, organize, and analyze these Telegram messages. The library offers key features such as easy message retrieval, detailed channel information, engagement metrics, and topic identification using advanced modeling techniques. By simplifying data extraction and analysis, pytopicgram allows users to understand how content spreads and how audiences interact on Telegram. This paper describes the design, main features, and practical uses of \pytopicgram, showcasing its effectiveness for studying public conversations on Telegram.'
+    },
+    {
+      title: 'Connecting REANA and the CERN-VRE: a JupyterLab Extension Middleware',
+      conferenceName: 'CERN Openlab Lightning Talks (2024)',
       journalName: '',
-      authors: 'Rubén Pérez-Mercado, Antonio Balderas, Andrés Muñoz, Juan Francisco Cabrera, Manuel Palomo-Duarte, Juan Manuel Dodero',
-      link: 'https://www.researchgate.net/publication/374145174_ChatbotSQL_Agente_Conversacional_y_Plataforma_Web_para_el_Aprendizaje_de_SQL',
-      description: 'La comprensión de las bases de datos no solo requiere conocimientos técnicos, sino también una capacidad para conceptualizar y organizar información de manera lógica y sistemática, lo cual puede resultar desafiante para muchos estudiantes de informática. Para ayudar al estudiante en el aprendizaje y entrenamiento de SQL, este trabajo presenta la herramienta ChatbotSQL, un agente conversacional que da soporte al estudiante en la resolución de diferentes ejercicios SQL y que le permite trabajar de manera autónoma. ChatbotSQL se presenta en una plataforma web que permite al profesorado definir y distribuir ejercicios en tres niveles de dificultad. Estos ejercicios serán resueltos por los estudiantes con la ayuda del chatbot, permitiéndoles trabajar a su ritmo y proporcionándoles evidencias de su progreso. Esta herramienta ha sido probada en una asignatura de Bases de Datos dos años consecutivos, arrojando evidencias positivas de su utilidad.'
+      authors: 'Rubén Pérez-Mercado, Enrique García-García, Giovanni Guerrieri',
+      link: 'https://zenodo.org/records/13847614',
+      description: 'In modern scientific research, preserving and reproducing analyses and results is crucial. The data gathered by experiments is shared among international collaborations and is analysed with software in continuous development, complicating the tasks of maintaining consistency and robustness. Within the ESCAPE and EOSC Future projects, an analysis facility was developed using a collaborative, bottom-up approach between all project partners. This initiative led to the CERN Virtual Research Environment, a platform that integrates several key components to streamline data analysis. It provides access to the ESCAPE Data Lake infrastructure through the CERN-developed data management framework (Rucio), and incorporates REANA – an open-source tool designed by CERN that focuses on ensuring result reproducibility and facilitating re-analysis. This contribution introduces Reana JupyterLab, a JupyterLab extension that integrates REANA into any JupyterHub-based environment, such as the CERN Virtual Research Environment. This extension allows the users to connect to any REANA instance, display their workflows, run new analysis and download data and results to the remote environment. The accessibility for non-expert users is ensured by providing a plug-and-play graphical interfaces.'
     },
     {
       title: 'ChatbotSQL: Conversational agent to support relational database query language learning',
       conferenceName: '',
       journalName: 'SoftwareX (2023)',
-      authors: 'Rubén Pérez-Mercado, Antonio Balderas, Andrés Muñoz, Juan Francisco Cabrera, Manuel Palomo-Duarte, Juan Manuel Dodero',
+      authors: 'R. Pérez-Mercado, A. Balderas, A. Muñoz, J.F. Cabrera, M. Palomo-Duarte, J.M. Dodero',
       link: 'https://doi.org/10.1016/j.softx.2023.101346',
       description: 'SQL is a key programming language for data scientists, but its learning is sometimes challenging, especially if the learner does not have a proper computer science background. This article introduces ChatbotSQL, a conversational agent that aims to support the autonomous learning of the SQL language for database querying. ChatbotSQL proposes exercises and guides about the steps to be taken by the learner in case of doubts, providing customised feedback. ChatbotSQL has been created on top of IBM Watson Assistant and is available in a web platform. Students in a higher education database subject used ChatbotSQL extensively, showing a positive perception of its usefulness in supporting the resolution of complex queries.'
     },
