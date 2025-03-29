@@ -100,6 +100,18 @@ const CONFIG = {
   ],
   experiences: [
     {
+      company: 'ACOBUR',
+      position: 'Software Engineer',
+      from: 'February 2025',
+      to: 'April 2025',
+      companyLink: 'https://www.acobur.es/en/',
+      description: [
+        'Contributed to the development of a system with RAGs and AI agents integration, taking full ownership of key components.',
+        'Developed a tender recommendation system using translations and synonyms of user keywords, leveraging hybrid search with Elasticsearch and FastAPI.',
+        'Built user interfaces in React for interaction with AI systems.'
+      ],
+    },
+    {
       company: 'CERN',
       position: 'Openlab Summer Student',
       from: 'July 2024',
