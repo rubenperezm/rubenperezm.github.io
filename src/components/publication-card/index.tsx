@@ -86,7 +86,7 @@ const PublicationCard = ({
           <div className="flex items-center flex-col">
             <div className="w-full">
               <div className="px-4">
-                <div className="text-center w-full">
+                <div className="text-center w-full h-[400px] overflow-hidden flex flex-col">
                   <h2 className="font-medium opacity-60 mb-2">{item.title}</h2>
                   {item.conferenceName && (
                     <p className="text-base-content opacity-50 text-sm">
