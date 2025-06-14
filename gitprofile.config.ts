@@ -89,14 +89,14 @@ const CONFIG = {
       'https://drive.google.com/file/d/1pZ8wyH2IUm584NnEYIa0Bs7cfxpTQoBE/view?usp=sharing', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'Java',
+    'C++',
     'Python',
-    'JavaScript',
-    'React.js',
     'MySQL',
     'MongoDB',
     'Git',
     'Docker',
+    'Real time',
+    'Distributed Systems',
   ],
   experiences: [
     {
