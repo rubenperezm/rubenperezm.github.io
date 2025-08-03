@@ -95,10 +95,21 @@ const CONFIG = {
     'MongoDB',
     'Git',
     'Docker',
-    'Real time',
+    'Real Time',
     'Distributed Systems',
   ],
   experiences: [
+    {
+      company: 'Navantia',
+      position: 'Software Engineer',
+      from: 'May 2025',
+      to: 'Present',
+      companyLink: 'https://www.navantia.es/en/',
+      description: [
+        'Contributed to the development of the software components integrated into the S-80 submarine series.',
+        'Used tools such as IBM Change, Synergy, and DOORS for requirements management and traceability.',
+      ],
+    },
     {
       company: 'ACOBUR',
       position: 'Software Engineer',
