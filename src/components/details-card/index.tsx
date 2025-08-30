@@ -22,7 +22,7 @@ import {
 import { FaSquareThreads } from 'react-icons/fa6';
 import { MdLocationOn } from 'react-icons/md';
 import { RiMailFill, RiPhoneFill } from 'react-icons/ri';
-import { SiResearchgate, SiTwitter, SiUdemy, SiLeetcode } from 'react-icons/si';
+import { SiResearchgate, SiTwitter, SiUdemy, SiLeetcode, SiGooglescholar } from 'react-icons/si';
 import { Profile } from '../../interfaces/profile';
 import {
   SanitizedGithub,
@@ -216,6 +216,14 @@ const DetailsCard = ({ profile, loading, social, github }: Props) => {
                   title="Twitter:"
                   value={social.twitter}
                   link={`https://twitter.com/${social.twitter}`}
+                />
+              )}
+              {social?.scholar && (
+                <ListItem
+                  icon={<SiGooglescholar />}
+                  title="Scholar:"
+                  value={"Rubén Pérez Mercado"} // Hardcoded name
+                  link={`https://scholar.google.com/citations?user=${social.scholar}`}
                 />
               )}
               {social?.mastodon && (
