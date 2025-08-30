@@ -25,7 +25,7 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['vre-hub/reana-jupyterlab-extension', 'rubenperezm/ChatbotSQL', 'rubenperezm/roBDa', 'rubenperezm/Sudoku', 'rubenperezm/pystrukts', 'rubenperezm/C-Compiler'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: ['vre-hub/reana-jupyterlab-extension', 'rubenperezm/ChatbotSQL', 'rubenperezm/roBDa', 'rubenperezm/Sudoku', 'rubenperezm/pystrukts', 'ugr-sail/pytopicgram', 'rubenperezm/rae2anki', 'rubenperezm/C-Compiler'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
@@ -64,6 +64,7 @@ const CONFIG = {
   social: {
     linkedin: 'rubenperezmercado',
     twitter: 'Ruben___Perez',
+    scholar: '9qcesMUAAAAJ',
     mastodon: '',
     researchGate: '',
     facebook: '',
@@ -127,7 +128,7 @@ const CONFIG = {
       position: 'Openlab Summer Student',
       from: 'July 2024',
       to: 'August 2024',
-      companyLink: 'https://openlab.cern/news/02-jul-2024/2024-cern-openlab-summer-student-programme-has-started-dont-miss-our-lectures',
+      companyLink: 'https://openlab.cern',
       description: [
         'Selected out of over 6660 applicants.',
         'Created Reana JupyterLab, an open-source JupyterLab extension in React and Python to interact with REANA, a reproducible research data analysis platform. It is currently being used by CERN’s Virtual Research Environment.',
@@ -225,11 +226,11 @@ const CONFIG = {
   publications: [
     {
       title: 'Data discovery, analysis and reproducibility in Virtual Research Environments',
-      conferenceName: '',
-      journalName: 'arXiv preprint (2025)',
+      conferenceName: '27th Conference on Computing in High Energy and Nuclear Physics (2024)',
+      journalName: '',
       authors: 'E. García-García, G. Guerrieri, R. Pérez-Mercado, M.R. Zengel, G. Skorobogatov, H. González-Labrador, X. Espinal-Curull',
       link: 'https://doi.org/10.48550/arXiv.2503.02483',
-      description: 'During the ESCAPE project, a pilot analysis facility was developed with a bottom-up approach, in collaboration with all the project partners. As a result, the CERN Virtual Research Environment (VRE) initiative proposes a workspace that facilitates data access from the ESCAPE Data Lake, managed by Rucio, a data management framework, and supports interactive analysis via Jupyter notebooks. The facility offers custom software stacks and access to CVMFS, and connects to local data processing resources through REANA, an open-source framework developed by CERN IT for reanalysis and reproducibility. The CERN VRE deploys an instance of REANA, allowing users to utilise its features together with the analysis facility\'s services. Integrating heterogeneous services with a unified interface significantly eases the user experience. Furthermore, in line with the ESCAPE Open Collaboration, the development of open source tools that can be leveraged by different physics communities with similar analysis strategies, laying the foundation of common lifecycle analysis practices. Therefore, in order to foster accessibility, as well as interactivity, reproducibility and data preservation to more complex infrastructure services, the development of user-friendly middleware should be prioritized. This contribution focuses on the connection of REANA and Zenodo to the CERN Virtual Research Environment\'s interface through Jupyter extensions. The development of these extensions makes it possible to use the Virtual Research Environment as a single workspace to enhance the lifecycle of research analysis: from data discovery and data access, through interactive analysis and offload to computing resources, to reproducibility and preservation of results.'
+      description: 'During the ESCAPE project, a pilot analysis facility was developed with a bottom-up approach, in collaboration with all the project partners. As a result, the CERN Virtual Research Environment (VRE) initiative proposes a workspace that facilitates data access from the ESCAPE Data Lake, managed by Rucio, a data management framework, and supports interactive analysis via Jupyter notebooks. The facility offers custom software stacks and access to CVMFS, and connects to local data processing resources through REANA, an open-source framework developed by CERN IT for reanalysis and reproducibility. The CERN VRE deploys an instance of REANA, allowing users to utilise its features together with the analysis facility\'s services.'
 },
     {
       title: 'Pytopicgram: A library for data extraction and topic modeling from Telegram channels',
@@ -245,7 +246,7 @@ const CONFIG = {
       journalName: '',
       authors: 'Rubén Pérez-Mercado, Enrique García-García, Giovanni Guerrieri',
       link: 'https://zenodo.org/records/13847614',
-      description: 'In modern scientific research, preserving and reproducing analyses and results is crucial. The data gathered by experiments is shared among international collaborations and is analysed with software in continuous development, complicating the tasks of maintaining consistency and robustness. Within the ESCAPE and EOSC Future projects, an analysis facility was developed using a collaborative, bottom-up approach between all project partners. This initiative led to the CERN Virtual Research Environment, a platform that integrates several key components to streamline data analysis. It provides access to the ESCAPE Data Lake infrastructure through the CERN-developed data management framework (Rucio), and incorporates REANA – an open-source tool designed by CERN that focuses on ensuring result reproducibility and facilitating re-analysis. This contribution introduces Reana JupyterLab, a JupyterLab extension that integrates REANA into any JupyterHub-based environment, such as the CERN Virtual Research Environment. This extension allows the users to connect to any REANA instance, display their workflows, run new analysis and download data and results to the remote environment. The accessibility for non-expert users is ensured by providing a plug-and-play graphical interfaces.'
+      description: 'In modern scientific research, preserving and reproducing analyses and results is crucial. The data gathered by experiments is shared among international collaborations and is analysed with software in continuous development, complicating the tasks of maintaining consistency and robustness. Within the ESCAPE and EOSC Future projects, an analysis facility was developed using a collaborative, bottom-up approach between all project partners. This initiative led to the CERN Virtual Research Environment, a platform that integrates several key components to streamline data analysis. It provides access to the ESCAPE Data Lake infrastructure through the CERN-developed data management framework (Rucio), and incorporates REANA - an open-source tool designed by CERN that focuses on ensuring result reproducibility and facilitating re-analysis.',
     },
     {
       title: 'ChatbotSQL: Conversational agent to support relational database query language learning',

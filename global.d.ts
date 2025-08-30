@@ -165,6 +165,11 @@ interface Social {
   threads?: string;
 
   /**
+   * Scholar
+   */
+  scholar?: string;
+
+  /**
    * YouTube
    */
   youtube?: string;
