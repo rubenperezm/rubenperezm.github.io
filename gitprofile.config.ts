@@ -107,8 +107,10 @@ const CONFIG = {
       to: 'Present',
       companyLink: 'https://www.navantia.es/en/',
       description: [
-        'Contributed to the development of the software components integrated into the S-80 submarine series.',
-        'Used tools such as IBM Change, Synergy, and DOORS for requirements management and traceability.',
+        'Developed and maintained real-time C++ software components for the S-80 submarine programme, focused on sonar and electronic warfare systems. Collaborated closely with external software contractors.',
+        'Supported requirements engineering and system specification for naval systems, following the NASA Systems Engineering Handbook and ensuring compliance with NATO standards. Supported system testing, validation, and troubleshooting, contributing to system verification and operational reliability.',
+        'Participated in international collaborative projects such as E=MCM (European Extended Mine Countermeasures) and EPC (European Patrol Corvette). Coordinated with multiple contractors and partner organisations to align technical deliverables and requirements.',
+        'Produced official client documentation describing software architecture, interfaces, and operation.'
       ],
     },
     {
