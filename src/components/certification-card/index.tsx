@@ -20,7 +20,7 @@ const ListItem = ({
     ></div>
     <div className="my-0.5 text-xs">{year}</div>
     <div className="font-medium">
-      <a href={link} target="_blank" rel="noreferrer" className="hover:text-primary hover:underline">
+      <a href={link} target="_blank" rel="noreferrer" className={`${link ? "hover:text-primary hover:underline": ''}`}>
         {name}
       </a>
     </div>

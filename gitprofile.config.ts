@@ -165,8 +165,7 @@ const CONFIG = {
     {
       name: 'Spanish Security Clearance (HPS) - Grade R / NATO S / EU-S / ESA S',
       body: '',
-      year: 'Aug 2025',
-      link: ''
+      year: 'Aug 2025'
     },
     {
       name: 'GitHub Foundations',
