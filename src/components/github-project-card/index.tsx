@@ -159,7 +159,7 @@ const GithubProjectCard = ({
                       rel="noreferrer"
                       className="text-base-content opacity-50 hover:underline hover:text-primary hover:opacity-100"
                     >
-                      See All
+                      View All
                     </a>
                   )}
                 </div>
